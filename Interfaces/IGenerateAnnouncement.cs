@@ -10,5 +10,7 @@ namespace The_Lookout.Interfaces
     {
         string generateAnnouncement(string sightedObj, string Location);
         string selectArticle (string sightedObj);
+        string getLocation();
+        string getSightedObject();
     }
 }
